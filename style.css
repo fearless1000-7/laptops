@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.p {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.mac {
+    width: 800px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.btn {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    grid-gap: 10px;
+}
+
+button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    width: 50%;
+}
+
+.active {
+    background-color: blue;
+    color: white;
+}
+
+.gb {
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: rgb(197, 197, 197) 2px solid;
+}
+
+.bot {
+    margin: 10px auto;
+}
+
+
+.activeB {
+    border: 2px solid #0071E3;
+}
+
+.image {
+    width: 312px;
+    height: 290px;
+    background-image: url("./img/white.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: .5s ease;
+}
